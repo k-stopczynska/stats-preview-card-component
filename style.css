@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+    cursor: pointer;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: hsl(233, 47%, 7%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 90%;
+    height: 90%;
+    background-color: hsl(244, 38%, 16%);
+}
+.image {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: block;
+    opacity: 0.5;
+}
+.image-container {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 30%;
+}
+.color-filter {
+    position: absolute;
+    background-color: hsl(277, 64%, 61%);
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    opacity: 0.5;
+}
+.about {
+    width: 80%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 8;
+    align-items: center;
+    justify-items: center;
+    margin: 2em auto;
+}
+.title {
+   font-size: 1.7em;
+}
+.purple {
+    color: hsl(277, 64%, 61%);
+}
+.description {
+    font-size: 15px;
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 2em auto;
+}
+.data-list {
+    list-style: none;
+    margin: 1em 0 auto;
+}
+.data {
+    font-size: 1.3em;
+}
+.data-description {
+    text-transform: uppercase;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 12px;
+    margin: 0.5em auto;
+}
+.data-li {
+    margin-bottom: 1em;
+}
